@@ -1,0 +1,33 @@
+.filter-section {
+  grid-area: filters;
+}
+.job-listing-section {
+  grid-area: jobsSection;
+}
+
+.career-page {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 0.7fr 0.7fr 1fr 1fr 1fr;
+
+  grid-template-areas:
+    "filters filters jobsSection jobsSection jobsSection"
+    "filters filters jobsSection jobsSection jobsSection"
+    "filters filters jobsSection jobsSection jobsSection";
+}
+
+.saved-jobs-container,
+.applied-jobs-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .career-page {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "filters "
+      "jobsSection";
+  }
+}

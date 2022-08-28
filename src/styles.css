@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css";
+.ml-20 {
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}

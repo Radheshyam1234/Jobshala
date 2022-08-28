@@ -1,0 +1,25 @@
+.filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: sticky;
+  top: 100px;
+}
+
+.filter-category label {
+  padding: 5px;
+}
+.filter-category h3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: indigo;
+}
+
+.reset-button {
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  background-color: #00a6c2;
+}

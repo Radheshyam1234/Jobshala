@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+}
+
+.nav-title {
+  flex: 0.2;
+  color: brown;
+}
+.nav-sub-section {
+  flex: 0.4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.searchfield {
+  flex: 1;
+}
+input[type="search"] {
+  width: 120%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #00a6c2;
+  outline: none;
+  font-size: 14px;
+}
