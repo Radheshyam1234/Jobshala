@@ -95,3 +95,21 @@ button {
   border: 1px solid #a4a5a8;
   color: #777;
 }
+@media (max-width: 768px) {
+  .company-logo-img {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .job-title {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .company-name {
+    grid-area: 4 / 2 / 2 / 3;
+  }
+
+  .skills-container {
+    grid-area: 5 / 1 / 6 / 4;
+  }
+  .location {
+    grid-area: 7 / 2 / 8 / 3;
+  }
+}
